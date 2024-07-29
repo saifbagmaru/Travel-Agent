@@ -11,3 +11,5 @@ langchain-openai
 langchain-community
 langsmith
 langgraph
+gunicorn==20.0.4
+wfastcgi==3.0.0
