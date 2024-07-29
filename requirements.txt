@@ -1,0 +1,13 @@
+Flask
+python-dotenv
+requests
+pandas
+pytz
+numpy
+openai
+db-sqlite3
+langchain-core
+langchain-openai
+langchain-community
+langsmith
+langgraph
