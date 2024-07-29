@@ -29,7 +29,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Database setup
 db_url = "https://storage.googleapis.com/benchmarks-artifacts/travel-db/travel2.sqlite"
-local_file = "travel2.sqlite"
+local_file = os.path.join(os.getcwd(), "travel2.sqlite")
 # The backup lets us restart for each tutorial section
 backup_file = "travel2.backup.sqlite"
 overwrite = False
